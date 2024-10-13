@@ -2,7 +2,6 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import customtkinter
 
-
 class App:
     def __init__(self):
         
