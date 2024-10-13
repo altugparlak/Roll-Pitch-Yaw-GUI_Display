@@ -21,14 +21,18 @@ Roll-Pitch-Yaw GUI Display is a graphical user interface (GUI) application for v
 ## How to Build
 1. Clone the repository:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/altugparlak/Roll-Pitch-Yaw-GUI_Display.git
    ```
-2. Install the required dependencies:
+2. Navigate to the project directory:
    ```sh
-   pip install customtkinter Pillow
+   cd Roll-Pitch-Yaw-GUI_Display
    ```
-3. Make sure the required images (`RPY.png` and `vehicle.png`) are available in the same directory as the script.
-4. Run the application:
+3. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Make sure the required images (`RPY.png` and `vehicle.png`) are available in the same directory as the script.
+5. Run the application:
    ```sh
    python app.py
    ```
